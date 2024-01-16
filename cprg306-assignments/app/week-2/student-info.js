@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 const StudentInfo = () => {
 
     return (
@@ -7,9 +8,11 @@ const StudentInfo = () => {
         <div>
         My name is Nathan Podgurny
         </div>
-        <Link href="">
+        <div className="underline hover:underline-offset-4">
+        <Link href="https://github.com/nathanp133/cprg306-assignments" >
         Access my GitHub
         </Link>
+        </div>
         
         </div>
         );

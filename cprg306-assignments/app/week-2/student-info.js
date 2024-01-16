@@ -8,7 +8,7 @@ const StudentInfo = () => {
         <div>
         My name is Nathan Podgurny
         </div>
-        <div className="underline hover:underline-offset-4">
+        <div className='hover underline'>
         <Link href="https://github.com/nathanp133/cprg306-assignments" >
         Access my GitHub
         </Link>
